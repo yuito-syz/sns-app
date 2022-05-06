@@ -1,6 +1,6 @@
 # roulette-app
 
-> nuxt-rails-api-app
+> roulette-app
 
 ## Build Setup
 

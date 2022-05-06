@@ -26,7 +26,7 @@
               <v-list-item
                 v-for="user in users"
                 :key="user.id"
-                @click="user"
+                @click="foobar"
               >
                 <v-list-item-content>
                   <v-list-item-title v-text="user.name"></v-list-item-title>
