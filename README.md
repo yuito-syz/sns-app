@@ -1,1 +1,2 @@
-# roulette-app
+# sns-app
+- 作りかけ
