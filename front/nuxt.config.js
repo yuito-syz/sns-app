@@ -44,8 +44,19 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/firebase',
+    '@nuxtjs/dotenv'
   ],
+
+  env: {
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messageSenderId: process.env.MESSAGE_SENDER_ID,
+    appId: process.env.APP_ID,
+  },
 
   publicRuntimeConfig: {
     axios: {
